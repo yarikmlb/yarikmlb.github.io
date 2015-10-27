@@ -1,0 +1,146 @@
+html,
+body{
+	height: 100%;
+}
+body {
+	margin: 0;
+}
+.wrapper {
+	background-color: #f7f7f7;
+}
+header a {
+	font: 12px 'Source Code Pro', sans-serif;
+	color: #828282;
+}
+.reg {
+	text-align: center;
+}
+.money li {
+	display: inline-block;
+	list-style: none;
+}
+.navigation li {
+	display: inline-block;
+	list-style: none;
+}
+.navigation a {
+	font: 14px 'Source Code Pro', sans-serif;
+	color: #636363;
+}
+.money {
+	float: right;
+}
+.collapse {
+	padding: 0;
+}
+.navbar-brand {
+	padding-top: 35px;
+}
+.navigation {
+	padding-top: 30px;
+	float: right;
+}
+.nav-tabs {
+	border: none;
+	margin-left: 135px;
+}
+.nav-tabs a {
+	font: 12px 'Source Code Pro', sans-serif;
+	color: #828282;
+}
+.grid {
+	margin-top: 50px;
+	padding: 0;
+}
+.grid-sizer {
+	width: 33.3%;
+}
+.grid-item {
+	max-width: 33.3%;
+}
+.thumbnail {
+	position: relative;
+	max-width: 100%;
+	padding: 0;
+	border-radius: 0;
+	border: none;
+	background: none;
+}
+.ico-theme {
+	color: #d64123;
+	padding: 7px 37px;
+	background-color: #fff;
+	position: absolute;
+	bottom: 155px;
+	left: 140px;
+}
+.caption {
+	text-align: center;
+}
+.caption span {
+	font: 12px 'Source Code Pro', sans-serif;
+	color: #d7d7d7;
+}
+.caption h3 {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #636363;
+}
+.caption p {
+	font: 14px 'Source Sans Pro', sans-serif;
+	color: #a3a3a3;
+}
+.info {
+	margin-top: 15px;
+	text-align: center;
+	font-family: 'Source Code Pro', sans-serif;
+	font-weight: 600;
+	color: #636363;
+}
+.btn {
+	margin-left: 465px;
+	margin-bottom: 60px;
+	border-radius: 0;
+}
+.btn-default {
+	background: #f7f7f7;
+	border: none;
+	color: #828282;
+	font: 16px;
+	padding: 20px 44px;
+}
+.footer-nav {
+	padding: 0;
+}
+.ico-footer {
+	color: #d64123;	
+}
+.footer-nav li {
+	list-style: none;
+}
+.contact span {
+	padding-left: 10px;
+}
+.form-control {
+	border: none;
+	background-color: #f7f7f7;
+	font: 14px "ProximaNovaLight";
+	box-shadow: none;
+	height: 50px;
+	color: #fff;
+}	
+.footer h4 {
+	font-family: 'Source Code Pro', sans-serif;
+	font-weight: 600;
+	color: #636363;
+}
+.footer a {
+	font: 14px 'Source Sans Pro', sans-serif;
+	color: #828282;
+}
+.footer span {
+	font: 14px 'Source Sans Pro', sans-serif;
+	color: #828282;
+}
+.footer .btn {
+	margin: 15px 0;
+}
