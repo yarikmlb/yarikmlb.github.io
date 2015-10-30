@@ -11,6 +11,20 @@ body {
 header a {
 	font: 12px 'Source Code Pro', sans-serif;
 	color: #828282;
+	text-transform: uppercase;
+}
+.ico_header .heart:before {
+	font-family: FontAwesome;
+	content: "\f004";
+	display: inline-block;
+}
+.ico_header .search:before {
+	font-family: FontAwesome;
+	content: "\f002";
+	display: inline-block;
+}
+.brand_navigation {
+	background-color: #fff;
 }
 .reg {
 	text-align: center;
@@ -26,6 +40,7 @@ header a {
 .navigation a {
 	font: 14px 'Source Code Pro', sans-serif;
 	color: #636363;
+	text-transform: uppercase;
 }
 .money {
 	float: right;
@@ -47,6 +62,7 @@ header a {
 .nav-tabs a {
 	font: 12px 'Source Code Pro', sans-serif;
 	color: #828282;
+	text-transform: uppercase;
 }
 .grid {
 	margin-top: 50px;
@@ -77,6 +93,10 @@ header a {
 .caption {
 	text-align: center;
 }
+.caption span a {
+	font: 12px 'Source Code Pro', sans-serif;
+	color: #d7d7d7;
+}
 .caption span {
 	font: 12px 'Source Code Pro', sans-serif;
 	color: #d7d7d7;
@@ -84,6 +104,7 @@ header a {
 .caption h3 {
 	font-family: 'Source Sans Pro', sans-serif;
 	color: #636363;
+	text-transform: uppercase;
 }
 .caption p {
 	font: 14px 'Source Sans Pro', sans-serif;
@@ -95,6 +116,7 @@ header a {
 	font-family: 'Source Code Pro', sans-serif;
 	font-weight: 600;
 	color: #636363;
+	text-transform: uppercase;
 }
 .btn {
 	margin-left: 465px;
@@ -117,21 +139,25 @@ header a {
 .footer-nav li {
 	list-style: none;
 }
-.contact span {
+.contact address {
 	padding-left: 10px;
+	font: 14px 'Source Sans Pro', sans-serif;
+	color: #828282;
+	margin: 0;
 }
 .form-control {
 	border: none;
 	background-color: #f7f7f7;
-	font: 14px "ProximaNovaLight";
+	font: 14px;
 	box-shadow: none;
 	height: 50px;
-	color: #fff;
+	color: #000;
 }	
-.footer h4 {
+.block-title {
 	font-family: 'Source Code Pro', sans-serif;
 	font-weight: 600;
 	color: #636363;
+	text-transform: uppercase;
 }
 .footer a {
 	font: 14px 'Source Sans Pro', sans-serif;
