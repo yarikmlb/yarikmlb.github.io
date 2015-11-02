@@ -26,12 +26,12 @@
             <a href="#" class="search">Search</a>
           </div>
           <div class="col-xs-4 reg">
-            <a href="#">Log in</a>/<a href="#">Register</a>
+            <a href="#">Log in</a><span>/</span><a href="#">Register</a>
           </div>
           <div class="col-xs-4 ">
             <ul class="money">
               <li>
-                <a href="#"><i class="fa fa-lock"></i> <span>Cart 1 - 235 $</span></a>
+                <a href="#" class="lock">Cart 1 - 235 $</a>
               </li>
               <li>
                 <a href="#">Us dollar <span class="caret"></span></a>
@@ -53,7 +53,7 @@
                 </button>
                 <a class="navbar-brand" href="#logo"><img src="img/logo.png" alt="" id="logo"></a>
               </div>
-              <nav class="collapse navbar-collapse">
+              <nav class="collapse navbar-collapse" id="responsive-menu">
                 <ul class="nav navbar-nav navigation">
                   <li><a href="#">Home</a></li>
                   <li><a href="#">Shop</a></li>
@@ -70,7 +70,7 @@
     <section class="container-fluid wrapper">
       <div class="container">
         <nav class="row">
-          <menu class="nav nav-tabs">
+          <ul class="nav nav-tabs menu">
             <li><a href="#">All</a></li>
             <li><a href="#">Design</a></li>
             <li><a href="#">Fashion</a></li>
@@ -80,19 +80,19 @@
             <li><a href="#">Apps</a></li>
             <li><a href="#">Travel</a></li>
             <li><a href="#">Stories</a></li>
-          </menu>
+          </ul>
         </nav>
       </div>
     </section>
     <section class="container">
-      <div class="grid js-masonry" data-masonry-options='{ "columnWidth": 200, "itemSelector": ".grid-item" }'>
+      <div class="grid js-masonry row" data-masonry-options='{ "columnWidth": 200, "itemSelector": ".grid-item" }'>
         <div class="grid-sizer"></div>
         <article class="grid-item">
          <div class="thumbnail">
             <img src="http://placehold.it/370x555" class="img-responsive">
             <div class="caption">
-              <i class="fa fa-camera fa-2x ico-theme"></i>
-              <span><a href="#">Design</a>,<a href="#">Fashion</a>,<a href="#">Video</a> / JULY 29, 2014</span>
+              <i class="fa fa-camera ico-theme"></i>
+              <span><a href="#">Design</a>,<a href="#">Fashion</a>,<a href="#">Video</a> / <time>JULY 29, 2014</time></span>
               <a href="#"><h3>A special night in milan</h3></a>
               <p>Full English breakast slappers wedding tackle balderdash completely crackers a diamond geezer down the village green a reet bobbydazzler...</p>
             </div>
@@ -102,7 +102,7 @@
           <div class="thumbnail">
               <img src="http://placehold.it/370x247" class="img-responsive">
               <div class="caption">
-                <i class="fa fa-film fa-2x ico-theme"></i>
+                <i class="fa fa-film ico-theme"></i>
                 <span>Design,Fashion,Photography / JULY 29, 2014</span>
                 <h3>Jck trade show 2014</h3>
                 <p>They can sod off got his end away nuthouse done up like a kipper bent as a nine bob note drizzle, in a pickle porky-pies penny-dreadful crisps...</p>
@@ -113,7 +113,7 @@
           <div class="thumbnail">
               <img src="http://placehold.it/370x485" class="img-responsive">
               <div class="caption">
-                <i class="fa fa-newspaper-o fa-2x ico-theme"></i>
+                <i class="fa fa-newspaper-o ico-theme"></i>
                 <span>Design,Fashion,Photography / JULY 29, 2014</span>
                 <h3>Inspired by nature</h3>
                 <p>Up North bent as a nine bob note lost the plot jolly hockey sticks Prince Charles the chippy a bit wonky up North, Southeners two weeks on't trot...</p>
@@ -122,9 +122,9 @@
         </article>
         <article class="grid-item">
           <div class="thumbnail">
-              <img src="http://placehold.it/370x230" class="img-responsive">
+              <img src="http://placehold.it/370x230">
               <div class="caption">
-                <i class="fa fa-newspaper-o fa-2x ico-theme"></i>
+                <i class="fa fa-newspaper-o ico-theme"></i>
                 <span>Design,Fashion,Video / JULY 29, 2014</span>
                 <h3>A special night in milan</h3>
                 <p>Full English breakast slappers wedding tackle balderdash completely crackers a diamond geezer down the village green a reet bobbydazzler...</p>
@@ -133,9 +133,9 @@
         </article>
         <article class="grid-item">
           <div class="thumbnail">
-              <img src="http://placehold.it/370x347" class="img-responsive">
+              <img src="http://placehold.it/370x347">
               <div class="caption">
-                <i class="fa fa-picture-o fa-2x ico-theme"></i>
+                <i class="fa fa-picture-o ico-theme"></i>
                 <span>Design,Fashion,Photography / JULY 29, 2014</span>
                 <h3>Lauren stamile</h3>
                 <p>Up North bent as a nine bob note lost the plot jolly hockey sticks Prince Charles the chippy a bit wonky up North, Southeners two weeks on't trot...</p>
@@ -144,9 +144,9 @@
         </article>
         <article class="grid-item">
           <div class="thumbnail">
-              <img src="http://placehold.it/370x555" class="img-responsive">
+              <img src="http://placehold.it/370x555">
               <div class="caption">
-                <i class="fa fa-film fa-2x ico-theme"></i>
+                <i class="fa fa-film ico-theme"></i>
                 <span>Design,Fashion,Photography / JULY 29, 2014</span>
                 <h3>Kirsrina colonna b!shop</h3>
                 <p>Up North bent as a nine bob note lost the plot jolly hockey sticks Prince Charles the chippy a bit wonky up North, Southeners two weeks on't trot...</p>
@@ -155,9 +155,9 @@
         </article>
         <article class="grid-item">
           <div class="thumbnail">
-              <img src="http://placehold.it/370x555" class="img-responsive">
+              <img src="http://placehold.it/370x555">
               <div class="caption">
-                <i class="fa fa-camera fa-2x ico-theme"></i>
+                <i class="fa fa-camera ico-theme"></i>
                 <span>Design,Fashion,Video / JULY 29, 2014</span>
                 <h3>Stuff she likes b!shop</h3>
                 <p>Full English breakast slappers wedding tackle balderdash completely crackers a diamond geezer down the village green a reet bobbydazzler...</p>
@@ -166,9 +166,9 @@
         </article>
         <article class="grid-item">
           <div class="thumbnail">
-              <img src="http://placehold.it/370x555" class="img-responsive">
+              <img src="http://placehold.it/370x555">
               <div class="caption">
-                <i class="fa fa-newspaper-o fa-2x ico-theme"></i>
+                <i class="fa fa-newspaper-o ico-theme"></i>
                 <span>Design,Fashion,Photography / JULY 29, 2014</span>
                 <h3>Styled by bethany</h3>
                 <p>Up North bent as a nine bob note lost the plot jolly hockey sticks Prince Charles the chippy a bit wonky up North, Southeners two weeks on't trot...</p>
@@ -177,9 +177,9 @@
         </article>
         <article class="grid-item">
           <div class="thumbnail">
-              <img src="http://placehold.it/370x275" class="img-responsive">
+              <img src="http://placehold.it/370x275">
               <div class="caption">
-                <i class="fa fa-newspaper-o fa-2x ico-theme"></i>
+                <i class="fa fa-newspaper-o ico-theme"></i>
                 <span>Design,Fashion,Photography / JULY 29, 2014</span>
                 <h3>Inspired by nature</h3>
                 <p>Up North bent as a nine bob note lost the plot jolly hockey sticks Prince Charles the chippy a bit wonky up North, Southeners two weeks on't trot...</p>

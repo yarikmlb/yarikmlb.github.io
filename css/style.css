@@ -8,6 +8,7 @@ body {
 .wrapper {
 	background-color: #f7f7f7;
 }
+header,
 header a {
 	font: 12px 'Source Code Pro', sans-serif;
 	color: #828282;
@@ -16,11 +17,19 @@ header a {
 .ico_header .heart:before {
 	font-family: FontAwesome;
 	content: "\f004";
+	padding-right: 5px;
 	display: inline-block;
 }
 .ico_header .search:before {
 	font-family: FontAwesome;
 	content: "\f002";
+	padding-right: 5px;
+	display: inline-block;
+}
+.lock:before {
+	font-family: FontAwesome;
+	content: "\f023";
+	padding-right: 5px;
 	display: inline-block;
 }
 .brand_navigation {
@@ -29,13 +38,15 @@ header a {
 .reg {
 	text-align: center;
 }
+.reg span {
+	padding: 0 5px;
+}
 .money li {
 	display: inline-block;
 	list-style: none;
 }
-.navigation li {
-	display: inline-block;
-	list-style: none;
+.navbar-toggle .icon-bar {
+  background-color: #636363;
 }
 .navigation a {
 	font: 14px 'Source Code Pro', sans-serif;
@@ -59,10 +70,16 @@ header a {
 	border: none;
 	margin-left: 135px;
 }
-.nav-tabs a {
+.nav-tabs li a {
 	font: 12px 'Source Code Pro', sans-serif;
 	color: #828282;
 	text-transform: uppercase;
+	border: none;
+	border-radius: 0;
+}
+.menu li a {
+	margin: 0;
+	padding: 20px;
 }
 .grid {
 	margin-top: 50px;
@@ -75,7 +92,7 @@ header a {
 	max-width: 33.3%;
 }
 .thumbnail {
-	position: relative;
+	margin: 0 15px;
 	max-width: 100%;
 	padding: 0;
 	border-radius: 0;
@@ -84,19 +101,22 @@ header a {
 }
 .ico-theme {
 	color: #d64123;
+	font-size: 32px;
 	padding: 7px 37px;
 	background-color: #fff;
 	position: absolute;
-	bottom: 155px;
+	top: -32px;
 	left: 140px;
 }
 .caption {
+	position: relative;
 	text-align: center;
 }
-.caption span a {
+.caption a {
 	font: 12px 'Source Code Pro', sans-serif;
 	color: #d7d7d7;
 }
+.caption time,
 .caption span {
 	font: 12px 'Source Code Pro', sans-serif;
 	color: #d7d7d7;
@@ -169,4 +189,35 @@ header a {
 }
 .footer .btn {
 	margin: 15px 0;
+}
+@media screen and (max-width: 480px) {
+	.grid-sizer,
+	.grid-item {
+		width: 100%;
+		margin-left: 110px;
+	}
+	.ico-theme {
+		color: #d64123;
+		font-size: 16px;
+		padding: 7px 37px;
+		background-color: #fff;
+		position: absolute;
+		top: -30px;
+    left: 15px;
+	}
+	.menu a {
+		display: block;
+	}
+	.navbar-brand {
+		padding-top: 10px;
+	}
+	.navigation {
+		padding-top: 30px;
+		float: none;
+	}
+	.nav > li > a {
+    position: relative;
+    display: block;
+    text-align: center;
+  }  
 }
